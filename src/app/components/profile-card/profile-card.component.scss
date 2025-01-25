@@ -1,0 +1,33 @@
+.profile-card{
+    border: 1px solid var(--light-color);
+    padding: 32px 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px;
+
+    &__avatar{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        background-color: red;
+    }
+    &__name{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    } 
+    &__tags{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        align-content: flex-start;
+    }
+}
+
+.avatar-name{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-gap: 20px;
+
+}
